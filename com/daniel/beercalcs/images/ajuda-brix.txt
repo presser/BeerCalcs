@@ -1,0 +1,13 @@
+Esta opção permite realizar a conversão de Brix para densidade relativa e vice versa.
+
+A tela possui dois campos, sendo que apenas um deles deve ser preenchido de cada vez.
+
+- Brix
+Neste campo é possível informar o valor que você deseja converter para densidade relativa. Você deve informar o valor numérico, que pode ser fracionado.
+Após informar este valor, você deve utilizar a opção "OK" para realizar a conversão. O valor convertido será exibido no campo "Densidade convertida", e os campos serão limpos para que uma nova operação possa ser realizada.
+
+- Densidade
+Neste capo é possível informar o valor que você deseja converter para Brix. Verifique na ajuda geral as orientações para preenchimento deste campo.
+Após informar o valor, você deve utilizar a opção "OK" para realizar a conversão. O valor convertido será exibido no campo "Brix convertido", e os campos serão limpos para que uma nova operação possa ser realizada.
+
+A opção "Voltar" retorna ao menu principal.

@@ -1,0 +1,12 @@
+Esta opção permite que você estime a graduação alcoólica da cerveja de acordo com as leituras da densidade relativa inicial e final.
+
+A tela possui dois campos:
+
+- Densidade inicial (OG)
+Este campo é obrigatório e você deve informar a densidade relativa inicial medida antes da fermentação ser iniciada. Verifique na ajuda geral as orientações para preenchimento dos campos de densidade.
+
+- Densidade final (FG)
+Este campo é obrigatório e você deve informar a densidade relativa medida no momento.
+
+Após informar os dois campos, você deve utilizar a opção "OK". Os resultados serão exibidos nos campos "Álcool por peso" e "Álcool por volume". Além disso os campos serão limpos para que você possa realizar um novo cálculo.
+A opção "Voltar" retorna para o menu principal.

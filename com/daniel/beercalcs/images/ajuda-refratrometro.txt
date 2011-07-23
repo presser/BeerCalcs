@@ -1,0 +1,12 @@
+Esta opção permite fazer a correção da leitura do refratrômetro convertida para densidade relativa, considerando um mosto em fermentação ou já fermentado.
+
+Ela possui dois campos:
+
+- Leitura do refratrômetro
+Este campo é obrigatório e você deve informar a leitura realizada com o refratrômetro em Brix. Os valores mínimo e máximo são 0 e 100 respectivamente.
+
+- Densidade inicial (OG)
+Este campo é obrigatório e você deve informar densidade relativa inicial do mosto antes da fermentação. Verifique na ajuda geral as orientações para preenchimento deste campo.
+
+Após informar os dois campos, você deve utilizar a opção "OK" para realizar o cálculo. O resultado será exibido no campo "Densidade corrigida" e os campos serão limpos para que uma nova operação possa ser realizada.
+A opção "Voltar" retorna ao menu principal.

@@ -1,0 +1,17 @@
+Esta opção permite realizar a correção da temperatura do mosto para ajustar a leitura realizada à temperatura de calibração do densímetro utilizado.
+A tela possui três campos:
+
+- Temp. de Calibração
+Este campo é obrigatório e você deve informar a temperatura de calibração do densímetro utilizado. Normalmente a temperatura está destacada no próprio densímetro.
+A temperatura é em graus celsius, e você deve informar apenas o número (Ex.: 20). Se necessário, é possível informar uma temperatura fracionada (Ex.: 20.5 ou 20,5 dependendo do modelo do dispositivo).
+O valor mínimo aceito é 0 e o máximo é 110.
+
+- Densidade
+Este campo é obrigadorio e você deve informar a densidade relativa medida com o densímetro. 
+Verifique na ajuda geral as orientações para preenchimento deste campo.
+
+- Temperatura
+Este campo é obrigatório e você deve informar a temperatura do mosto no momento da medição da densidade. Ele segue o mesmo padrão de preenchimento do primero campo.
+
+Após informar todos os campos, você deve utilizar a opção "OK" para realizar o cálculo. O resultado será exibido no campo "Densidade corrigida" e os outros campos serão limpos para que você possa realizar o cálculo novamente.
+A opção "Voltar" retorna ao menu principal.

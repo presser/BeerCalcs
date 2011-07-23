@@ -1,0 +1,6 @@
+Bem vindo ao BeerCalcs!
+
+Este software tem como objetivo facilitar a vida do cervejeiro caseiro, através de ferramentas que permitem realizar cálculos e operações comuns no processo de produção de cerveja.
+Para ver a ajuda de cada uma das operações disponíveis no BeerCalcs, use as opções disponíveis no menu. Para cada operação há instruções detalhadas de seu funcionamento.
+Além disso, há a opção "Gerais", que contém informações gerais e dicas a respeito da aplicação.
+Para maiores informações, acesse o site do aplicativo: www.presser.net.br/beercalcs

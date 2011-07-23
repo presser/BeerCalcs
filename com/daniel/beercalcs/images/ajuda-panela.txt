@@ -1,0 +1,34 @@
+Esta opção permite calcular o volume de mosto presente numa panela de acordo com suas medidas.
+Ao acessar esta opção, será exibida uma lista das panelas que estão cadastradas no seu dispositivo, seguidas da opção para criação de uma nova panela.
+Caso você já possua a panela cadastrada, você pode selecioná-la para realizar o a operação. Além disso, através do menu é possível editar e excluir panelas que já estejam cadastradas.
+
+Se você ainda não tiver a panela cadastrada, deve selecionar a opção "Nova panela".
+Ao selecionar essa opção, será exibida a tela de cadastro de panelas. A tela contém 4 campos:
+
+- Nome
+Este campo é obrigatório e você deve informar um nome de identificação para a panela. Este nome será exibido na lista de panelas citada acima.
+O valor é alfanumérico, com no máximo 20 caracteres.
+
+- Altura (cm)
+Este campo é obrigatório e você deve informar a altura da panela em centímetros. O valor é numérico, permitindo números fracionados.
+Tanto este campo quanto o de diâmetro abaixo devem ser medidos na parte de dentro da panela, pois se forem medidos por fora a espessura do material da panela influenciará no resultado. As medições devem ser o mais precisas possível, pois diferenças na medição causarão diferenças no valor calculado pelo aplicativo.
+
+- Diâmetro (cm)
+Este campo é obrigatório e você deve informar o diâmetro da panela em centímetros. O valor é numérico, e segue o mesmo padrão do campo anterior.
+
+- Correção (l)
+Este campo é opcional e deve ser informado apenas se você deseja que o BeerCalcs faça uma correção automática do valor calculado. O valor informado neste campo será somado ao volume total calculado quando a operação for realizada.
+Desta forma é possível compensar automaticamente irregularidades no formato da panela, como a curvatura no fundo que algumas panelas possuem. Nenhum tratamento é feito com esse valor - ele é apenas somado ao total. Ele é numérico, suporta números fracionados e pode inclusive ser negativo.
+
+Após informar os campos, você deve utilizar o botão "OK" para gravar a panela.
+O botão "Cancelar" cancela a inclusão ou alteração da panela selecionada.
+
+Com a panela gravada, é exibida a tela de cálculo de volume. Nesta tela é possível informar o espaço livre ou o espaço ocupado na panela.
+O espaço livre é o espaço livre que há do topo do mosto até o topo da panela. O espaço ocupado é o espaço ocupado pelo mosto na panela, do fundo dela até o topo do mosto.
+Os dois campos são em centímetros, com valores numéricos e permitem números fracionados.
+
+Apenas um desses campos deve ser informado de cada vez. Com o campo informado, você deve utilizar a opção "OK" para calcular o volume de mosto na panela.
+O volume será exibido no campo Resultado.
+
+Vale lembrar que esse cálculo considera a panela como um cilindro perfeito, portanto, deve ser entendido apenas como uma aproximação. 
+Qualquer irregularidade no formato da panela causará diferença entre o volume real e o estimado pelo BeerCalcs.

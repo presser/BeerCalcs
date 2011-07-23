@@ -1,0 +1,15 @@
+Esta ajuda tem como objetivo esclarecer alguns termos e explicar alguns padrões do BeerCalcs.
+
+1) O termo "densidade" que é utilizado reiteradamente na aplicação refere-se à densidade relativa à água, como medida por um densímetro de massa específica. Esse é o densímetro comum, mais utilizado pelos cervejeiros caseiros.
+
+2) Nos campos em que se preenche densidades, é possível utilizar as seguintes formas:
+2.1) apenas as duas últimas casas do valor lido. Para uma densidade "1,054", você pode informar apenas "54". O aplicativo irá fazer o tratamento adequado para transformar esse valor em "1,054".
+Essa opção está limitada a valores que vão de 0 a 99.
+2.2) o número completo sem separador de decimal. Para uma densidade "1,054", você pode informar "1054". O aplicativo irá fazer o tratamento adequado para transformar esse valor em "1,054".
+Essa opção está limitada a valores de 1000 a 1500.
+2.3) o número exato, separando corretamente as decimais, como no exemplo "1,054".
+Esta opção está limitada a valores de 0,500 a 1,500.
+
+3) Em todas as telas, quando algum valor inválido é informado em algum campo, a aplicação apenas limpa o conteúdo do campo e seleciona ele, para que um valor válido seja informado. Para não dificultar a operação no ambiente limitado dos dispositivos móveis, não são exibidas mensagens ou avisos.
+
+4) Em todas as telas, após realizar alguma operação, é padrão que os campos que foram preenchidos tenham seu conteúdo limpo, e o primeiro campo da tela seja selecionado. Com isso, é possível realizar novas operações sem precisar sair e voltar à tela e sem precisar apagar os campos manualmente.

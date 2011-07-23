@@ -1,0 +1,9 @@
+MIDlet-1: Beer Calcs,/com/daniel/beercalcs/images/icon.png,com.daniel.beercalcs.BeerCalcsApp
+MIDlet-Icon: /com/daniel/beercalcs/images/icon.png
+MIDlet-Jar-Size: 434775
+MIDlet-Jar-URL: BeerCalcs.jar
+MIDlet-Name: BeerCalcs
+MIDlet-Vendor: Daniel Presser
+MIDlet-Version: 1.0.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0

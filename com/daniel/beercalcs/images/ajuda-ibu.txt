@@ -1,0 +1,37 @@
+Esta opção permite estimar os IBUs de uma cerveja de acordo com os lúpulos utilizados.
+Ao acessar a opção, é exibida a lista de fórmulas de cálculo disponíveis. As fórmulas disponíveis são:
+
+- Tinseth (padrão do BeerSmith)
+- Rager
+
+Após selecionar a fórmula desejada, é exibida a tela de resumo dos lúpulos. Há dois campos nesta tela:
+
+- OG esperada
+Este campo é obrigatório e deve ser preenchido com a densidade relativa inicial esperada para a cerveja. Verifique na ajuda geral as orientações para preenchimento deste campo.
+
+- Litros
+Este campo é obrigatório e deve ser preenchido com os litros finais esperados para a cerveja. O valor é numérico e permite números fracionados.
+
+Com estes campos informados, é posível adicionar os lúpulos através do menu "Inserir lúpulo". Ao selecionar este menu, é exibida uma lista onde você deve escolher se o lúpulo a ser utilizado está em pellets ou em flores inteiras.
+Após isso, é exibida a tela de detalhes do lúpulo, que tem 3 campos
+
+- Peso (gramas)
+Este campo é obrigatório e deve ser preenchido com o peso em gramas do lúpulo que será utilizado. O valor é numérico e permite números fracionados. Os valores mínimo e máximo são 0,001 e 5000 respectivamente.
+
+- Minutos em fervura
+Este campo é obrigatório e deve ser preenchido com a quantidade de minutos que o lúpulo ficará em fervura. O valor é numérico e não permite números fracionados. Os valores mínimo e máximo são 1 e 500 respectivamente.
+
+- % Ácidos Alfa
+Este campo é obrigatório e deve ser preenchido com o percentual de ácidos alfa do tipo de lúpulo que está sendo utilizado. O valor é numérico e permite números fracionados. Os valores mínimo e máximo são 0,001 e 100,0 respectivamente.
+
+Com esses campos informados, você deve utilizar a opção "OK" para realizar o cálculo. Ao fazer isso, você voltará para a tela de resumo dos lúpulos e os dados do lúpulo informado serão adicionados à lista, bem como somados ao total de IBUs da cerveja.
+A opção "Voltar" retorna para a tela de resumo dos lúpulos sem adicionar novos lúpulos.
+Você pode adicionar quantos lúpulos desejar seguindo as orientações acima.
+
+Caso seja necessário, também é possível excluir o último lúpulo lançado, através da opção de menu disponível.
+
+- Considerações
+Esta operação deve ser encarada como uma aproximação, pois as limitações do ambiente (dispositivos móveis em geral) não permitem que cálculos muito precisos sejam realizados. As diferenças que ocorrerão em cálculos com valores usuais para cervejeiros caseiros são desprezíveis e dificilmente afetarão de forma significativa o resultado.
+Entretanto, ao utilizar valores mais altos, diferenças maiores poderão acontecer. Use esta opção como uma aproximação, e não deixe de confirmar esses dados num ambiente que permita cálculos mais precisos.
+
+Vale lembrar também que, dada a forma que a fórmula de Rager foi implementada, após os 45 minutos de fervura não ocorre mais aumento do IBU calculado. Embora outras aplicações continuem aumentando os IBUs, a documentação utilizada para implementação destas fórmulas indica que não há aumento significativo no amargor com mais tempo de fervura.
